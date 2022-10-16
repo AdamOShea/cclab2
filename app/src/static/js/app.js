@@ -12,16 +12,6 @@ function App() {
     );
 }
 
-function setBackground()
-{
-	return (
-		<div style={{
-			//backgroundImage = `url('../../../../../NB6I2TM.png')`;
-		}}>
-		</div>
-	);
-}
-
 function TodoListCard() {
     const [items, setItems] = React.useState(null);
 
@@ -107,7 +97,7 @@ function AddItemForm({ onNewItem }) {
                     value={newItem}
                     onChange={e => setNewItem(e.target.value)}
                     type="text"
-                    placeholder="New Item"
+                    placeholder="PUT ITEMS IN HERE"
                     aria-describedby="basic-addon1"
                 />
                 <InputGroup.Append>
